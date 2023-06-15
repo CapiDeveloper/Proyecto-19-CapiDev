@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(235, 235, 235);
+}
+h1,p{
+    margin: 0;
+}
+h1{
+    font-weight: 900;
+    font-size: 25px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 200px;
+}
+.contenedor{
+    width: 95%;
+    margin: 35px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media (min-width:768px) {
+    .contenedor{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 90%;
+    }
+}
+.tarjeta--individual{
+    flex: 1;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px #888888;
+}
+/* Tarjeta uno */
+.tarjeta--puntos{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.tarjeta--puntos img{
+    width: 50px;
+}
+.tarjeta--personaje{
+    border-radius: 50%;
+    background-color: #1A56DB;
+}
+.tarjeta--info{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-block: 15px;
+}
+.tarjeta--info p{
+    color: rgb(121, 121, 121);
+}
+.tarjeta--botones{
+    display: flex;
+    gap: 10px;
+}
+.tarjeta--botones button,
+.tarjeta--botones a{
+    border: 1px solid #1A56DB;
+    font-size: 15px;
+    font-weight: 900;
+}
+.tarjeta--boton{
+    background-color: #1A56DB;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 15px;
+}
+.tarjeta--boton:hover{
+    background-color: #1244ae;
+}
+.tarjeta--botones a{
+    padding-block: 10px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    color: black;
+    border-color: rgb(175, 175, 175);
+}
+.tarjeta--botones a:hover{
+    background-color: rgb(230, 230, 230);
+}
+/* Segunda tarjeta */
+.tarjeta--imagen{
+    margin-bottom: 30px;
+}
+.tarjeta--colaboracion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.tarjeta--colaboracion img{
+    width: 80px;
+}
+.tarjeta--colaboracion p{
+    background-color: #1a57db46;
+    color: #1441a3;
+    border-radius: 5px;
+    padding-inline: 8px;
+    padding-block: 3px;
+    font-size: 12px;
+}
+.tarjeta--opciones{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tarjeta--opciones p{
+    font-weight: 900;
+    font-size: 30px;
+}
+/* Tercera tarjeta */
+.tarjeta--encabezado{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tarjeta--descripcion{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.tarjeta--descripcion img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1A56DB;
+}
+.tarjeta--descripcion h1{
+    font-size: 12px;
+}
+.tarjeta--descripcion p{
+    font-size: 12px;
+}
+.punto--vertical{
+    width: 40px;
+}
+.imagen--comida{
+    width: 100%;
+    margin-top: 15px;
+}
+.tarjeta--parrafo{
+    text-align: justify;
+    padding-block: 20px;
+    line-height: 25px;
+}
+.tarjeta--iconos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tarjeta--iconos img{
+    width: 35px;
+}
